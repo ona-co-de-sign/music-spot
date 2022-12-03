@@ -1,0 +1,42 @@
+@use '../globals/index' as *;
+
+body {
+  background: $black;
+  color: $white;
+  background: rgb(60, 26, 144);
+  background: linear-gradient(263deg, rgba(32, 17, 113, 0.779) 0%, rgba(65, 8, 106, 0.925) 0%, rgb(25, 12, 88) 100%);
+  ;
+}
+
+.site-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-main {
+  flex: 1 0 auto;
+}
+
+.inner-width {
+  width: 100%;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.site-footer {
+  min-width: 80vw;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 1rem 0;
+  border-top: 1px solid rgb(51, 38, 124);
+
+  &__content {
+    color: rgb(76, 71, 128);
+  }
+}

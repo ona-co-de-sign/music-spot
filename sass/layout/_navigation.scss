@@ -1,0 +1,58 @@
+@use '../globals/index' as *;
+
+a {
+  color: var(--link-color);
+  transition: color 0.3s ease;
+
+  &:hover,
+  &:focus {
+    color: var(--hover-color);
+  }
+}
+
+.site-navigation {
+  width: 100%;
+  padding: 1rem 0;
+
+  a {
+    display: inline-block;
+    font-size: 0.9em;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:not(:last-of-type) {
+      margin-right: 3.5rem;
+    }
+  }
+
+  &__main-items {
+    align-self: center;
+    margin: 0 auto;
+  }
+
+  &__btns {
+    display: flex;
+    // margin-left: auto;
+    // gap: 0 2rem;
+
+    &__btn {
+      cursor: pointer;
+    }
+  }
+
+  &__form {
+    margin-left: auto;
+
+    label {
+      padding: 0.2em 0.5em;
+      border-radius: 0.5em;
+      background-color: #585275;
+    }
+
+    input {
+      background-color: #585275;
+      border: none;
+      outline: none;
+    }
+  }
+}
