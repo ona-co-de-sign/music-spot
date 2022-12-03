@@ -13,6 +13,8 @@ a {
 .site-navigation {
   width: 100%;
   padding: 1rem 0;
+  justify-content: space-between;
+  gap: 3rem;
 
   a {
     display: inline-block;
@@ -25,7 +27,7 @@ a {
     }
   }
 
-  &__main-items {
+  &__links {
     align-self: center;
     margin: 0 auto;
   }
@@ -38,6 +40,10 @@ a {
     &__btn {
       cursor: pointer;
     }
+  }
+
+  .mobile-icon {
+    opacity: 0;
   }
 
   &__form {
