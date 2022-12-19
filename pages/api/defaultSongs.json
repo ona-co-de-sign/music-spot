@@ -1,0 +1,28 @@
+[
+    {
+        "artistId": 1590,
+        "artistName": "David Guetta",
+        "artistViewUrl": "https://music.apple.com/us/artist/sting/94804?uo=4",
+        "artworkUrl100": "https://i0.wp.com/musicplayup.com/wp-content/uploads/2022/08/Titaniumsong.jpg?resize=316%2C316&ssl=1",
+        "previewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video128/v4/15/ba/f6/15baf6d2-5f69-74c9-7fea-1547dd72da34/mzvf_878636515243089243.640x350.h264lc.U.p.m4v",
+        "collectionViewUrl": "https://music.apple.com/us/album/fields-of-gold/1455399771?i=1455400094&uo=4",
+        "kind": "song",
+        "primaryGenreName": "Pop, Urban-Dance",
+        "trackName": "Titanium ",
+        "trackTimeMillis": 219000,
+        "trackViewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5e/5b/3d/5e5b3df4-deb5-da78-5d64-fe51d8404d5c/mzaf_13341178261601361485.plus.aac.p.m4a"
+    },
+    {
+        "artistId": 15900,
+        "artistName": "Elvis Presley",
+        "artistViewUrl": "https://music.apple.com/us/artist/elvis-presley/197443?uo=4",
+        "artworkUrl100": "https://i1.sndcdn.com/artworks-000239159438-p8yqj8-t500x500.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5f/2e/a6/5f2ea62d-3c8d-d1a0-ca97-43aee9981184/mzaf_15021352563180799815.plus.aac.p.m4a",
+        "collectionViewUrl": "https://music.apple.com/us/album/fields-of-gold/1455399771?i=1455400094&uo=4",
+        "kind": "song",
+        "primaryGenreName": "Rock",
+        "trackName": "Suspicious Minds",
+        "trackTimeMillis": 262719,
+        "trackViewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5e/5b/3d/5e5b3df4-deb5-da78-5d64-fe51d8404d5c/mzaf_13341178261601361485.plus.aac.p.m4a"
+    }
+]
