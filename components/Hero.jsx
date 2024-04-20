@@ -6,7 +6,12 @@ export default function Hero() {
         <div className='hero flex-row'>
             <div className='flex-column hero__content'>
                 <div className="hero__heading flex-column">
-                    <h1>discover, collect music and create your own playlist on <span className='gradient-text'> music </span> spot</h1>
+                    <h1>
+                        discover and collect <span className='gradient-text'> music </span>
+                        & create your own
+                        <span className='gradient-text'> playlist </span>
+                        on <span className='gradient-text'> music spot </span>
+                    </h1>
                     <p className='hero__text'>find out musical gems and explore new and trending artists and albums and create your own playlist</p>
                 </div>
                 <div className="hero__buttons flex-row">
