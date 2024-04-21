@@ -1,13 +1,4 @@
 @media screen and (max-width: 900px) {
-    .site-navigation {
-        .site-navigation__btns {
-            order: 3;
-
-            .site-navigation__btn {
-                margin-right: 1.5rem !important;
-            }
-        }
-    }
 
     // HERO
     .hero {
@@ -47,7 +38,16 @@
     }
 }
 
-@media screen and (max-width: 630px) {
+
+@media screen and (max-width: 795px) {
+    .site-header {
+        .mobile-icon {
+            margin-left: auto;
+            display: block;
+            cursor: pointer;
+        }
+    }
+
     .site-navigation {
         display: inline-flex;
         justify-content: space-between;
@@ -80,11 +80,6 @@
         .site-navigation__links.active {
             opacity: 1;
             height: auto;
-        }
-
-        .mobile-icon {
-            opacity: 1;
-            cursor: pointer;
         }
     }
 

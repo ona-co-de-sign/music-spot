@@ -1,5 +1,25 @@
 .site-header {
-  padding: 0;
+  width: 100%;
+  padding: 0.5rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+
+
+  .mobile-icon {
+    display: none;
+  }
+
+  .site-navigation__btns {
+    display: flex;
+    margin-left: auto;
+    align-self: flex-end;
+    gap: 0 2rem;
+
+    &__btn {
+      cursor: pointer;
+    }
+  }
 
   &__logo {
     width: 20rem;

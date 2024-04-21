@@ -11,10 +11,9 @@ a {
 }
 
 .site-navigation {
-  width: 100%;
-  padding: 1rem 0;
+  display: flex;
   justify-content: space-between;
-  gap: 3rem;
+  align-items: center;
 
   a {
     display: inline-block;
@@ -28,22 +27,17 @@ a {
   }
 
   &__links {
-    align-self: center;
-    margin: 0 auto;
+    flex: 1;
   }
 
   &__btns {
     display: flex;
-    // margin-left: auto;
-    // gap: 0 2rem;
+    margin-left: auto;
+    align-self: flex-end;
 
     &__btn {
       cursor: pointer;
     }
-  }
-
-  .mobile-icon {
-    opacity: 0;
   }
 
   &__form {
